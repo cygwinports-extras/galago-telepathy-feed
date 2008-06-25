@@ -1,0 +1,4 @@
+category: Net
+requires: cygwin glib2 libdbus-glib_1_2 libdbus1_3 libgalago libtelepathy2
+sdesc: "Galago Telepathy feed"
+ldesc: "Telepathy feed for the Galago desktop presence framework"

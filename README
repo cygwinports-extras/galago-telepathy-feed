@@ -1,0 +1,67 @@
+galago-telepathy-feed
+------------------------------------------
+Telepathy feed for the Galago desktop presence framework
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib2-2.16.3-1
+  libdbus-glib_1_2-0.74-1
+  libdbus1_3-1.2.1-1
+  libgalago-0.5.2-1
+  libtelepathy2-0.3.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.20.0-2
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://telepathy.freedesktop.org/wiki/
+
+Canonical download:
+  http://telepathy.freedesktop.org/releases/telepathy-feed/
+
+-------------------------------------------
+
+Build instructions:
+  unpack galago-telepathy-feed-0.13-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./galago-telepathy-feed-0.13-X.cygport all
+
+This will create:
+  /usr/src/galago-telepathy-feed-0.13-X-src.tar.bz2
+  /usr/src/galago-telepathy-feed-0.13-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/galago/telepathy-feed.exe
+  /usr/share/doc/galago-telepathy-feed-0.13/AUTHORS
+  /usr/share/doc/galago-telepathy-feed-0.13/COPYING
+  /usr/share/doc/galago-telepathy-feed-0.13/ChangeLog
+  /usr/share/doc/galago-telepathy-feed-0.13/INSTALL
+
+------------------
+
+Port Notes:
+
+----- version 0.13-2 -----
+Rebuilt for libtelepathy-0.3.
+
+----- version 0.13-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
